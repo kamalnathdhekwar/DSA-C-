@@ -24,7 +24,8 @@ int main()
 
    cout<<__gcd(a,b)<<endl;
 
+  // minimum fraction of a/b is (a/gcd(a,b) / b/gcd(a,b));
 
-//    note : time complexity Log(N) ,,N --> range 
+//    note : time complexity of Euclid's Algorithm is == Log(N) ,,N --> range 
        return 0;
 }
