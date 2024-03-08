@@ -24,6 +24,8 @@ int main()
     return 0;
 }
 
+//  time complexity will be N*( log(log(n) ))
+
 // o/p----
 /* 
 2 1
