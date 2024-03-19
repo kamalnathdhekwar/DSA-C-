@@ -20,8 +20,9 @@ using namespace std;
 
 bool cmp(pair<ll,ll> a, pair<ll,ll> b){
   
-  return a.first<b.first;
-
+  return a.first<b.first; // by first value
+   
+   return a.second<b.second; // by second value
 }
 
 int main()
